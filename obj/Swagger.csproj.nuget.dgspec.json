@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Workstation\\swagger-area-de-testes\\Swagger\\Swagger.csproj": {}
+    "E:\\Workstation\\swagger-area-de-testes\\Swagger.csproj": {}
   },
   "projects": {
-    "E:\\Workstation\\swagger-area-de-testes\\Swagger\\Swagger.csproj": {
+    "E:\\Workstation\\swagger-area-de-testes\\Swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Workstation\\swagger-area-de-testes\\Swagger\\Swagger.csproj",
+        "projectUniqueName": "E:\\Workstation\\swagger-area-de-testes\\Swagger.csproj",
         "projectName": "Swagger",
-        "projectPath": "E:\\Workstation\\swagger-area-de-testes\\Swagger\\Swagger.csproj",
+        "projectPath": "E:\\Workstation\\swagger-area-de-testes\\Swagger.csproj",
         "packagesPath": "C:\\Users\\Everton\\.nuget\\packages\\",
-        "outputPath": "E:\\Workstation\\swagger-area-de-testes\\Swagger\\obj\\",
+        "outputPath": "E:\\Workstation\\swagger-area-de-testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files\\SDK\\NuGetPackages"
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
